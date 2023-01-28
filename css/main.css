@@ -1,0 +1,49 @@
+.nav {
+    margin-left: -2em;
+  }
+  
+  .link{
+    text-decoration: none;
+    color: rgb(41, 211, 41);
+  }
+  a{
+    color: rgb(41, 211, 41);
+  
+  }
+  
+  @font-face {
+      font-family: Jetbrains;
+      src: url(~/fonts/JetBrainsMonoNL-Medium.ttf)
+  }
+  
+  
+  .term{
+  
+      margin: 1em;
+      padding: 1px;
+      text-decoration: none;
+  }
+  
+  body{
+      border: 1px green;
+      background-color: black;
+      color: rgb(24, 205, 24);
+      font-size: 2em;
+      font-family: Jetbrains;
+  
+  }
+  
+  /* snaps in in the end of command being written out*/
+  .content{
+      animation:content 1s 2s step-start alternate both;
+  }
+  
+  
+  hr {
+    color: green;
+  
+  }
+  .rawr {
+    margin-top: 1em;
+  }
+  
