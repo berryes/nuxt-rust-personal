@@ -2,6 +2,8 @@
 client/.env
 client/node_modules
 client/components
+client/.nuxt
+
 
 
 server/cargo.lock
