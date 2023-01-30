@@ -58,17 +58,31 @@ import CatCommand from '../../components/catCommand.vue'
 import FileHeader from '../../components/fileHeader.vue'
 import navTab from '../../components/navTab.vue'
 import allFooter from '../../components/allFooter.vue'
+
 export default {
   components: { navTab, FileHeader, CatCommand,allFooter },
   name: 'Blog',
   head: {
     title: 'blog - berryez.xyz'
   },
+  
   data: ()=>{
     return{
-      edited: '20230114'
+      edited: '20230114',
+      meleg: null,
     }
-  }
+  },
+
+ async fetch(){
+    await axios({
+      method:"GET",
+      url: "https://localhost:8000/"
+    }).then(()=>{
+      this.meleg = re
+    })
+ },
+ fetchOnServer:true
+
 }
 
 </script>
