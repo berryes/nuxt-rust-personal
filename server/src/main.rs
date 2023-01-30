@@ -1,9 +1,10 @@
 #[macro_use] extern crate rocket;
 
-#[get("/")]
+#[get("/api")]
 fn index() -> &'static str {
     "Hello, world!"
 }
+
 
 #[launch]
 fn rocket() -> _ {

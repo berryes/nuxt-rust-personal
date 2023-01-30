@@ -16,10 +16,12 @@
       I'm a privacy and FOSS advocate who is interested mainly in tech.
 
       
+     
       <div class="subpages">
       <p>subpages:</p>
         <ul>
           <li><router-link to="/aboutme/music"> fav music rn</router-link></li>
+          <li><router-link to="/aboutme/music"> : {{meleg}}</router-link></li>
         </ul>
       </div>
 
@@ -65,23 +67,18 @@ export default {
   head: {
     title: 'blog - berryez.xyz'
   },
-  
-  data: ()=>{
+
+   data: ()=>{
     return{
       edited: '20230114',
       meleg: null,
     }
   },
-
+  fetchOnServer: true,
  async fetch(){
-    await axios({
-      method:"GET",
-      url: "https://localhost:8000/"
-    }).then(()=>{
-      this.meleg = re
-    })
+   this.meleg = await fetch("http://127.0.0.1:8000/api").then((response) => response.text())
  },
- fetchOnServer:true
+
 
 }
 
