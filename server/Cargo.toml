@@ -5,3 +5,6 @@ edition = "2021"
 
 [dependencies]
 rocket = "0.5.0-rc.2"
+sqlite = "0.30.3"
+
+# totp-rs = "4.2.0"

@@ -76,7 +76,7 @@ export default {
   },
   fetchOnServer: true,
  async fetch(){
-   this.meleg = await fetch("http://127.0.0.1:8000/api").then((response) => response.text())
+   this.meleg = await fetch("http://127.0.0.1:8000/api").then((response) => response.text() )
  },
 
 
