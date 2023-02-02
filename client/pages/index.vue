@@ -25,13 +25,16 @@
       </ol>
 
       <ol>
-        <a target="_blank" href="https://search.berryez.xyz/">Piped</a>
+        <a target="_blank" href="https://piped.berryez.xyz/">Piped</a>
         <ol>"An alternative privacy-friendly YouTube frontend which is efficient by design. "</ol>
       </ol>
     </ul>
 
   </div>
+   <img src="/vps.png">
  </div>
+
+
 </div>
 <all-footer />
 </div>

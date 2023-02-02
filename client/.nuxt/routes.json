@@ -3,28 +3,24 @@
     "name": "aboutme",
     "path": "/aboutme",
     "component": "/home/berryes/code/wwwnuxt/client/pages/aboutme/index.vue",
-    "chunkName": "pages/aboutme/index",
-    "_name": "_70220066"
+    "chunkName": "pages/aboutme/index"
   },
   {
     "name": "whynuxt",
     "path": "/whynuxt",
     "component": "/home/berryes/code/wwwnuxt/client/pages/whynuxt.vue",
-    "chunkName": "pages/whynuxt",
-    "_name": "_02466a09"
+    "chunkName": "pages/whynuxt"
   },
   {
     "name": "aboutme-music",
     "path": "/aboutme/music",
     "component": "/home/berryes/code/wwwnuxt/client/pages/aboutme/music.vue",
-    "chunkName": "pages/aboutme/music",
-    "_name": "_90f6378e"
+    "chunkName": "pages/aboutme/music"
   },
   {
     "name": "index",
     "path": "/",
     "component": "/home/berryes/code/wwwnuxt/client/pages/index.vue",
-    "chunkName": "pages/index",
-    "_name": "_f387cbe0"
+    "chunkName": "pages/index"
   }
 ]

@@ -12,36 +12,24 @@
   <file-header :edited="edited" :name="this.$route.name" :created="20230124" />
 
   <div class="rawr">
-      Hey, im berryes/berry, or at least thats what my alias is. I'm a junior 'fullstack' developer.
-      I'm a privacy and FOSS advocate who is interested mainly in tech.
 
-      
-     
-      <div class="subpages">
-      <p>subpages:</p>
-        <ul>
-          <li><router-link to="/aboutme/music"> fav music rn</router-link></li>
-          <li><router-link to="/aboutme/music"> : {{meleg}}</router-link></li>
-        </ul>
-      </div>
-
-      <br>
       <div class="aboutme">
-        <h3>~ me</h3>
+        <h2>~ me</h2>
+        
+      Hey, im berryes/berry, or at least thats what my online alias is. 
+      <br> I'm a junior 'fullstack' developer student.
+      I'm privacy and FOSS advocate who is interested mainly in tech and also music.
+      <br>
+      <br>
       let mut languages :Vec&ltstr&gt = vec!["Rust","JS","Python","C#"];<br>
       let me :Vec&ltstr&gt = vec!["Student","He/him","Paranoid","Linux user"];<br>
 
 
-        <h3>~ setup</h3>
-        <ul>
-        <li>PC: Rog Strix G512LI</li>
-        <li>Distro: Fedora 37 Workstation</li>
-        <li>RAM: 16 GB</li>
-        <li>GPU: NVIDIA GeForce GTX 1650 Ti (4GB)</li>
-        <li>CPU: Intel Core i5-10300H @ 2.50GHz</li>
-        <li>Display: Samsung Odyssey G5 32"</li>
-        </ul>
+
+        <h2>~ setup</h2>
+        <img src="/neofetch.png">
       </div>
+
   </div>
  
  </div>
