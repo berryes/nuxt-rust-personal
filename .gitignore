@@ -10,3 +10,4 @@ server/cargo.lock
 server/target
 server/data.db
 client/.nuxt/routes.json
+client/.nuxt/routes.json
